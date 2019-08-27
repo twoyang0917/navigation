@@ -1,8 +1,8 @@
 version: '2'
 services:
-  daohang:
-    image: daohang:latest
-    container_name: daohang
+  navigation:
+    image: navigation:latest
+    container_name: navigation
     restart: always
     ports:
-      - 8080:8000
+      - 8000:8080
