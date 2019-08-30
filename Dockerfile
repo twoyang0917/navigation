@@ -2,10 +2,10 @@
 FROM python:3.5
 
 # 维护者信息
-MAINTAINER zhuima <zhuima314@gmail.com>
+LABEL maintainer="twoyang0917@gmail.com"
 
 # app 所在目录
-WORKDIR /usr/local/web
+WORKDIR /usr/local/web/
 ADD . /usr/local/web/
 
 # 安装 app 所需依赖

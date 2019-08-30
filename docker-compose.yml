@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 services:
   navigation:
     image: navigation:latest
@@ -6,3 +6,5 @@ services:
     restart: always
     ports:
       - 8000:8080
+    volumes:
+    - ./db.sqlite3:/usr/local/web/db.sqlite3
