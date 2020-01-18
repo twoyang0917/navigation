@@ -1,6 +1,9 @@
 version: '3'
 services:
   navigation:
+    build:
+      context: .
+      dockerfile: Dockerfile
     image: navigation:latest
     container_name: navigation
     restart: always

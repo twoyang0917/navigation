@@ -1,5 +1,5 @@
 # 基础镜像
-FROM python:3.5
+FROM python:3-alpine
 
 # 维护者信息
 LABEL maintainer="twoyang0917@gmail.com"
