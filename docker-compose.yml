@@ -1,10 +1,10 @@
 version: '3'
 services:
   navigation:
-    image: navigation:latest
+    image: twoyang0917/navigation:1.0
     container_name: navigation
     restart: always
     ports:
-      - 8000:8080
+      - 8080:8080
     volumes:
     - ./db.sqlite3:/usr/local/web/db.sqlite3
