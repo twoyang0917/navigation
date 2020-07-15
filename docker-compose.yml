@@ -1,7 +1,10 @@
 version: '3'
 services:
   navigation:
-    image: twoyang0917/navigation:1.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: navigation:latest
     container_name: navigation
     restart: always
     ports:
