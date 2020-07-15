@@ -1,7 +1,7 @@
 version: '3'
 services:
   navigation:
-    image: twoyang0917/navigation
+    image: twoyang0917/navigation:1.1
     container_name: navigation
     restart: always
     ports:
